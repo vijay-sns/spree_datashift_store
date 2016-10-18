@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -48,3 +48,9 @@ end
 gem 'spree', path: "/home/pikender/spree/spree"
 gem 'spree_auth_devise', path: "/home/pikender/spree/spree_auth_devise"
 gem 'spree_gateway', path: "/home/pikender/spree/spree_gateway"
+
+
+gem 'datashift', path: "/home/pikender/spree/marketing/product-import/datashift"
+gem 'datashift_spree', path: "/home/pikender/spree/marketing/product-import/datashift_spree"
+
+#gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
