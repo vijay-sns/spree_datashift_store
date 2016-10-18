@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby "2.2.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -54,3 +55,5 @@ gem 'datashift_spree', github: 'pikender/datashift_spree', branch: '0-2-stable'
 
 #gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
 gem 'spree_datashift_prod_import', github: 'pikender/spree_datashift_prod_import'
+
+gem 'rails_12factor', group: :production

@@ -18,5 +18,4 @@ test:
   database: prod_import_test
 
 production:
-  <<: *default
-  database: prod_import_prod
+  url: <%= ENV['DATABASE_URL'] %>
