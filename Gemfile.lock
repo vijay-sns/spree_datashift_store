@@ -13,6 +13,13 @@ PATH
       spreadsheet
 
 PATH
+  remote: /home/pikender/spree/marketing/product-import/spree_datashift_prod_import
+  specs:
+    spree_datashift_prod_import (3.0.4)
+      datashift_spree
+      spree_core (~> 3.0.4)
+
+PATH
   remote: /home/pikender/spree/spree_auth_devise
   specs:
     spree_auth_devise (3.0.6)
@@ -383,6 +390,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spree!
   spree_auth_devise!
+  spree_datashift_prod_import!
   spree_gateway!
   spring
   turbolinks

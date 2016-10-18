@@ -53,4 +53,4 @@ gem 'spree_gateway', path: "/home/pikender/spree/spree_gateway"
 gem 'datashift', path: "/home/pikender/spree/marketing/product-import/datashift"
 gem 'datashift_spree', path: "/home/pikender/spree/marketing/product-import/datashift_spree"
 
-#gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
+gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
