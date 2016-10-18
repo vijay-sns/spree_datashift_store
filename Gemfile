@@ -45,12 +45,12 @@ group :development do
   gem 'spring'
 end
 
-gem 'spree', path: "/home/pikender/spree/spree"
-gem 'spree_auth_devise', path: "/home/pikender/spree/spree_auth_devise"
-gem 'spree_gateway', path: "/home/pikender/spree/spree_gateway"
+gem 'spree', '3.0.4'
+gem 'spree_auth_devise', '3.0.6'
+gem 'spree_gateway', '3.0.0'
 
+gem 'datashift', github: 'pikender/datashift', branch: '0-16-stable'
+gem 'datashift_spree', github: 'pikender/datashift_spree', branch: '0-2-stable'
 
-gem 'datashift', path: "/home/pikender/spree/marketing/product-import/datashift"
-gem 'datashift_spree', path: "/home/pikender/spree/marketing/product-import/datashift_spree"
-
-gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
+#gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
+gem 'spree_datashift_prod_import', github: 'pikender/spree_datashift_prod_import'
