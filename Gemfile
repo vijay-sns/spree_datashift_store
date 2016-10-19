@@ -45,12 +45,12 @@ group :development do
   gem 'spring'
 end
 
-gem 'spree', path: "/home/pikender/spree/spree"
-gem 'spree_auth_devise', path: "/home/pikender/spree/spree_auth_devise"
-gem 'spree_gateway', path: "/home/pikender/spree/spree_gateway"
+gem 'spree', path: "/home/pikender/spree/spree" # Change to your local path
+gem 'spree_auth_devise', path: "/home/pikender/spree/spree_auth_devise" # Change to your local path
+gem 'spree_gateway', path: "/home/pikender/spree/spree_gateway" # Change to your local path
 
 
-gem 'datashift', path: "/home/pikender/spree/marketing/product-import/datashift"
-gem 'datashift_spree', path: "/home/pikender/spree/marketing/product-import/datashift_spree"
+gem 'datashift', path: "/home/pikender/spree/marketing/product-import/datashift" # Change to your local path
+gem 'datashift_spree', path: "/home/pikender/spree/marketing/product-import/datashift_spree" # Change to your local path
 
-gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
+gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import" # Change to your local path
