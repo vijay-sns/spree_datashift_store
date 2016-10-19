@@ -50,10 +50,9 @@ gem 'spree', '3.0.4'
 gem 'spree_auth_devise', '3.0.6'
 gem 'spree_gateway', '3.0.0'
 
-gem 'datashift', github: 'pikender/datashift', branch: '0-16-stable'
-gem 'datashift_spree', github: 'pikender/datashift_spree', branch: '0-2-stable'
+gem 'datashift', github: 'vinsol-spree-contrib/datashift', branch: '0-16-stable'
+gem 'datashift_spree', github: 'vinsol-spree-contrib/datashift_spree', branch: '0-2-stable'
 
-#gem 'spree_datashift_prod_import', path: "/home/pikender/spree/marketing/product-import/spree_datashift_prod_import"
-gem 'spree_datashift_prod_import', github: 'pikender/spree_datashift_prod_import'
+gem 'spree_datashift_prod_import', github: 'vinsol-spree-contrib/spree_datashift_prod_import'
 
 gem 'rails_12factor', group: :production

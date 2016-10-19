@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/pikender/datashift.git
+  remote: git://github.com/vinsol-spree-contrib/datashift.git
   revision: b5e845fe972696dbf7fe215c0a8bdf621e9e3f56
   branch: 0-16-stable
   specs:
@@ -8,7 +8,7 @@ GIT
       spreadsheet
 
 GIT
-  remote: git://github.com/pikender/datashift_spree.git
+  remote: git://github.com/vinsol-spree-contrib/datashift_spree.git
   revision: a3d48db241c4e98564782440d5adf99e8d2527f7
   branch: 0-2-stable
   specs:
@@ -17,7 +17,7 @@ GIT
       mechanize (~> 2.6, >= 2.6.0)
 
 GIT
-  remote: git://github.com/pikender/spree_datashift_prod_import.git
+  remote: git://github.com/vinsol-spree-contrib/spree_datashift_prod_import.git
   revision: f1da6374bec615d7687d21a3d18cd77bc6b45124
   specs:
     spree_datashift_prod_import (3.0.4)
