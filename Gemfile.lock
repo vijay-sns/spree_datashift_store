@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/vinsol-spree-contrib/datashift_spree.git
-  revision: a3d48db241c4e98564782440d5adf99e8d2527f7
+  revision: acd8deeb0b98db6f7cf383c67a8013c34fd5a360
   branch: 0-2-stable
   specs:
     datashift_spree (0.6.0)
