@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/vinsol-spree-contrib/datashift_spree.git
-  revision: bd5c0acdba66b723247eab8f46eb2a8018be610d
+  revision: b39b7ab9efcd5b73a1a26c197a5f7efef3d36e71
   branch: shopify/tmp
   specs:
     datashift_spree (0.6.0)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/vinsol-spree-contrib/spree_datashift_prod_import.git
-  revision: 8cf10923f9cd955f6ced8a4b3bf4a27a36e1655b
+  revision: 40380f5be4ae622a7279d05f300bfe18f984949f
   specs:
     spree_datashift_prod_import (3.0.4)
       datashift_spree
